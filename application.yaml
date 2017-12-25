@@ -4,7 +4,7 @@ request:
 zb:
   api:
    accessKey: 26064f08-d876-4a2b-8a3a-871d02d55006
-   accessSecret: 960b8bb8-8132-4c1f-b7b3-6068d198dd85
+   accessSecret:
    url: http://api.zb.com
 db:
  sqlite: zb.db

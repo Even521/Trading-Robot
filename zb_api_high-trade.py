@@ -40,7 +40,6 @@ class zb_api_high_trade(object):
          num += i[1]
         return num
     @staticmethod
-
     def start(c,s):
        while(True):
         zb_api_high_trade.get_deth_list(c,s)
@@ -48,6 +47,6 @@ class zb_api_high_trade(object):
 
 
 if __name__ == '__main__':
-    zb_api_high_trade.start('bts_btc',10)
+    zb_api_high_trade.start('btc_usdt',10)
 
 

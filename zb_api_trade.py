@@ -190,7 +190,7 @@ class zb_api_trade(request_call):
             print('请求过于频繁')
 if __name__ == '__main__':
     loop=gevent.get_hub().loop #定时任务
-    task=loop.timer(0.0,3) #1秒钟执行一次
+    task=loop.timer(0.0,1) #1秒钟执行一次
     a=zb_api_trade()
     task.start(a.get_account_info)
 

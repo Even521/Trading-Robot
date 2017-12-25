@@ -125,6 +125,6 @@ if __name__ == '__main__':
     loop=gevent.get_hub().loop #定时任务
     task=loop.timer(0.0,1) #1秒钟执行一次
     isMoney=0
-    a=zb_api_task('btc_usdt',isMoney)
+    a=zb_api_task('etc_usdt',isMoney)
     task.start(a.get_ticker_message)
     loop.run()
